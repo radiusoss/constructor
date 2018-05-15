@@ -2,17 +2,14 @@ name: JetsonConda
 version: 0.1
 
 channels:
-  - https://conda.anaconda.org/aarch64_gbox
+  - https://conda.anaconda.org/jetson-tx2
+
+conda_default_channels:
+  - https://conda.anaconda.org/jetson-tx2
 
 specs:
-  - python 3.6*
-  - conda  [aarch64]
-  - numpy  [aarch64]
-  - scipy  [aarch64]
-  - pandas [aarch64]
-  - notebook [aarch64]
-  - matplotlib [aarch64]
-  - freetype [aarch64]
+  - python 3.5.*
+  - conda
 
 #license_file: EULA.txt
 
